@@ -1,0 +1,50 @@
+body {
+    font-family: 'Great Vibes', cursive;
+    background-color: #452B1F; /* темно-коричневый фон */
+    color: #F7F7F7; /* светло-белый текст */
+    background-image: none;
+    background-size: 100% 100%;
+    background-position: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* тень текста */
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #F7F7F7; /* светло-белый текст */
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Great Vibes', cursive;
+}
+
+p {
+    font-size: 18px;
+    color: #F7F7F7; /* светло-белый текст */
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Great Vibes', cursive;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    font-size: 18px;
+    color: #F7F7F7; /* светло-белый текст */
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-family: 'Great Vibes', cursive;
+}
+
+    a:hover {
+        color: #CCCCCC; /* светло-серый текст */
+    }
