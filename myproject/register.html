@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрация</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form action="register.php" method="post">
+        <label for="username">Логин:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="account_type">Тип аккаунта:</label>
+        <select id="account_type" name="account_type" required>
+            <option value="">Выберите тип аккаунта</option>
+            <option value="admin">Admin</option>
+            <option value="user">User </option>
+        </select><br><br>
+        <input type="submit" value="Зарегистрироваться">
+    </form>
+    <p>Уже есть аккаунт? <a href="index.html">Войти</a></p>
+</body>
+</html>

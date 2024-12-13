@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Редактировать книгу</title>
+    <link rel="stylesheet" type="text/css" href="edit_book.css">
+</head>
+<body>
+    <h1>Редактировать книгу</h1>
+    <form action="edit_book.php" method="post">
+        <input type="hidden" name="id" value="<?php echo $book['id']; ?>">
+        <label for="title">Название:</label>
+        <input type="text" id="title" name="title" value="<?php echo $book['title']; ?>" required><br><br>
+        <label for="author_id">Автор:</label>
+        <input type="text" id="author_id" name="author_id" value="<?php echo $book['author_id']; ?>" required><br><br>
+        <label for="description">Описание:</label>
+        <textarea id="description" name="description" required><?php echo $book['description']; ?></textarea><br><br>
+        <input type="submit" value="Сохранить изменения">
+    </form>
+</body>
+</html>
